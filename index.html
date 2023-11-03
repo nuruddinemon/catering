@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body class="bg-[#FDFBFA]">
+    <!-- Header Area start-->
+    <header
+      id="header"
+      class="mx-auto h-auto xl:w-[1440px] w-[1350px] xl:max-w-full max-w-[85%]"
+    >
+      <menu
+        class="pt-[50px] lg:mb-0 mb-12 lg:h-[45px] sm:flex justify-between items-center lg:gap-0 gap-6 grid grid-cols-2 lg:flex-row md:flex-col "
+      >
+        <div class="logo">
+          <a href="">
+            <img src="./src/images/Logo.png" alt="" />
+          </a>
+        </div>
+        <button
+          id="mobileBtn"
+          class="px-4 py-3 text-base text-white rounded-2xl font-opensans bg-grayscale md:hidden"
+        >
+          Menu Open
+        </button>
+        <nav class="md:static  transition-all duration-1000 ease-in-out -left-[55rem] w-full top-0 z-10 md:z-auto md:bg-gradient-to-t md:from-[#FDFBFA] md:to-[#FDFBFA] md:w-auto py-8 md:py-0 bg-gradient-to-r from-[#1ac84b] to-[#ffb21a] absolute">
+          <button id="closeBtn" class="block px-6 py-2 mx-auto mb-8 text-3xl text-center bg-white font-opensans text-grayscale rounded-xl md:hidden">x</button>
+          <ul
+            class="flex xl:gap-[56px] md:gap-9 md:flex-row flex-col md:items-stretch items-center gap-6"
+          >
+            <li>
+              <a
+                class="text-sm leading-normal uppercase text-grayscale font-opensans"
+                href="#"
+                >Diets</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm leading-normal uppercase text-grayscale font-opensans"
+                href="#"
+                >Calorie calculator</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm leading-normal uppercase text-grayscale font-opensans"
+                href="#"
+                >Menu</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm leading-normal uppercase text-grayscale font-opensans"
+                href="#"
+                >Delivery</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm leading-normal uppercase text-grayscale font-opensans"
+                href="#"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm leading-normal uppercase text-grayscale font-opensans"
+                href="#"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm leading-normal uppercase text-grayscale font-opensans"
+                href="#"
+                >Faq</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="flex items-center justify-center col-span-2 gap-7 signin">
+          <button class="p-0">
+            <img src="./src/images/icons/Bag.png" alt="" />
+          </button>
+          <a
+            href="#"
+            class="bg-grayscale text-[#FDFBFA] px-[25px] py-[12px] rounded-[18px] font-opensans leading-normal text-sm font-semibold"
+            >Sign In</a
+          >
+        </div>
+      </menu>
+    </header>
+    <!-- Header Area end-->
+    <!-- Banner Area start -->
+    <section
+      id="banner"
+      class="mx-auto h-auto w-[1350px] max-w-[85%] lg:mx-0 lg:w-auto lg:max-w-full"
+    >
+      <div class="flex justify-center lg:mt-40 lg:justify-between">
+        <div class="hidden left-bg lg:block">
+          <div
+            class="bg-[url('../src/images/header-left-bg-1.png')] bg-no-repeat bg-auto bg-left xl:w-80 w-72 xl:h-96 h-[22rem] relative"
+          >
+            <img
+              src="./src/images/header-left-img-1-leaf-3.png"
+              class="absolute top-[-5rem] right-[8rem] z-[2]"
+            />
+            <img
+              src="./src/images/header-left-img-1-leaf-2.png"
+              class="absolute top-[-3rem] right-[9rem] z-[2]"
+            />
+            <img
+              src="./src/images/header-left-img-1-leaf-1.png"
+              class="absolute top-[-5.5rem] right-12 z-[2] blur-[1px]"
+            />
+            <img
+              src="./src/images/header-left-img-1.png"
+              class="absolute w-[90%] top-[-1.5rem] right-0 z-[1]"
+            />
+            <img
+              src="./src/images/header-left-img-2-leaf-1.png"
+              class="absolute w-[25%] bottom-[6rem] right-[1rem] z-[2] rotate-45"
+            />
+            <img
+              src="./src/images/header-left-img-2-leaf-2.png"
+              class="absolute right-[.5rem] bottom-36 z-[2]"
+            />
+          </div>
+          <div
+            class="bg-[url('../src/images/header-left-bg-2.png')] bg-no-repeat bg-auto bg-left w-[12rem] h-[14rem] relative"
+          >
+            <img src="./src/images/header-left-img-2.png" alt="" />
+            <img
+              src="./src/images/header-left-img-2-leaf-1.png"
+              class="absolute right-6 -bottom-4"
+            />
+            <img
+              src="./src/images/header-left-img-2-leaf-2.png"
+              class="absolute right-6 bottom-10"
+            />
+          </div>
+        </div>
+        <div class="banner-content">
+          <h1
+            class="text-grayscale font-semibold text-center text-[36px] sm:text-[50px] md:text-[62px] lg:text-[62px] xl:text-[72px] flex flex-col leadnig-[74px] font-opensans"
+          >
+            <span
+              class="relative before:md:w-[7.5rem] before:w-[5.5rem] before:md:h-[4.5rem] before:h-[3.5rem] before:absolute before:xl:top-4 before:top-2 before:xl:left-16 before:md:left-12 before:border-t-[3px] before:border-[#111112] before:border-l-[3px] before:rounded-tl-2xl md:before:block before:hidden"
+              >Premium quality</span
+            >
+            <span
+              >catering diets
+              <span
+                class="inline-block bg-[#FFB21A] xl:w-[127px] w-[100px] xl:h-[75px] h-[60px] rounded-[29px] align-middle"
+              >
+                <img
+                  src="./src/images/Red Apple.png"
+                  class="block mx-auto mt-2 xl:mt-3"
+                />
+              </span>
+              for</span
+            >
+            <span
+              class="flex items-center justify-center gap-4 md:justify-stretch"
+            >
+              <span
+                class="inline-block bg-[#1AC84B] xl:w-[155px] w-[120px] xl:h-[76px] h-[60px] rounded-[38px]"
+              >
+                <img
+                  src="./src/images/Avocado.png"
+                  class="mx-auto xl:w-[72px] xl:h-[72px] w-[62px] h-[62px]"
+                />
+              </span>
+              <span
+                class="relative before:md:w-[8rem] before:w-[6rem] before:md:h-[5rem] before:h-[4rem] before:absolute before:md:top-8 before:top-4 before:md:-right-8 before:-right-4 before:border-b-[3px] before:border-[#111112] before:border-r-[3px] before:rounded-br-2xl before:md:block before:hidden"
+              >
+                exacting
+              </span>
+            </span>
+          </h1>
+          <p
+            class="text-[#ADAEAF] leading-[22px] text-base pt-20 pb-12 md:w-[600px] text-center font-opensans"
+          >
+            Culpa qui officia deserunt mollitia animi. Et harum quidem rerum
+            facilis est et expedita distinctio. Nam libero tempore, cum soluta
+            nobis est
+          </p>
+          <div class="flex items-center justify-center gap-8">
+            <button
+              class="bg-grayscale rounded-[18px] px-[23px] py-3 font-semibold font-opensans leading-normal text-sm text-white"
+            >
+              Adjust diet
+            </button>
+            <button class="flex items-center">
+              <img src="./src/images/icons/play.png" alt="" />
+              <span
+                class="text-sm font-semibold leading-normal text-grayscale font-opensans"
+                >Watch wideo</span
+              >
+            </button>
+          </div>
+        </div>
+        <div class="hidden right-bg lg:block">
+          <div
+            class="bg-[url('../src/images/header-right-bg-1.png')] bg-no-repeat bg-auto bg-right xl:w-80 w-[18rem] h-56 relative"
+          >
+            <img
+              src="./src/images/header-right-img-1-leaf-1.png"
+              class="absolute right-16 -top-8 z-[2]"
+            />
+            <img
+              src="./src/images/header-right-img-1-leaf-2.png"
+              class="absolute right-16 -top-12 z-[2]"
+            />
+            <img
+              src="./src/images/header-right-img-1.png"
+              class="absolute -bottom-[1.5rem] right-0"
+            />
+          </div>
+          <div
+            class="bg-[url('../src/images/header-right-bg-2.png')] bg-no-repeat bg-auto bg-right xl:w-80 w-72 xl:h-96 h-[23rem] relative"
+          >
+            <img
+              src="./src/images/header-right-img-leaf-1.png"
+              class="absolute top-16 -left-12 z-[2]"
+            />
+            <img
+              src="./src/images/header-right-img-leaf-2.png"
+              class="absolute top-32 -left-12 z-[2]"
+            />
+            <img
+              src="./src/images/header-right-img-2.png"
+              class="absolute right-16 -bottom-8"
+            />
+            <img
+              src="./src/images/header-right-img-leaf-3.png"
+              class="absolute -bottom-8 -left-4 z-[2]"
+            />
+            <img
+              src="./src/images/header-right-img-leaf-4.png"
+              class="absolute -bottom-8 left-16 z-[2]"
+            />
+            <img
+              src="./src/images/header-right-img-leaf-5.png"
+              class="absolute -bottom-20 left-4 z-[2]"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="w-px h-[247px] bg-[#EAEAEA] mx-auto mb-12"></div>
+    </section>
+    <!-- Banner Area End -->
+    <!-- Review Area start -->
+    <section
+      id="review"
+      class="mx-auto h-auto xl:w-[1440px] w-[1350px] xl:max-w-full max-w-[85%]"
+    >
+      <div class="flex flex-col gap-8 xl:gap-32 lg:flex-row">
+        <div>
+          <h2
+            class="sm:text-[38px] text-3xl font-bold leading-10 sm:leading-[62px] text-grayscale font-opensans xl:w-[599px] sm:text-left text-center"
+          >
+            We cook - they enjoy every minute of
+            <img src="./src/images/icons/arrow.svg" class="inline-block" /> their
+          </h2>
+          <div class="mt-14">
+            <h6 class="text-[#ADAEAF] leading-[22px] font-opensans">
+              Because we...
+            </h6>
+            <div class="flex items-start gap-4 mt-6 sm:items-center">
+              <img src="./src/images/icons/quote-right.svg" alt="" />
+              <p
+                class="text-grayscale leading-[22px] font-opensans text-base xl:w-[518px]"
+              >
+                We don't accept half-measures and shortcuts, because what we
+                care about is the WOW effect. And all the luck that our efforts
+                are not in vain. We know this because we closely follow the
+                opinions of our consumers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+          <div class="xl:w-[334px]">
+            <img src="./src/images/icons/stars.svg" alt="" />
+            <div class="bg-[#F5F5F5] rounded-[24px] p-4 mt-2">
+              <h3
+                class="flex items-center gap-3 text-sm font-bold leading-normal font-opensans text-grayscale"
+              >
+                <span> Guy Hawkins </span>
+                <span class="w-[24px] h-[1px] bg-grayscale inline-block"></span>
+              </h3>
+              <p
+                class="text-[#ADAEAF] font-opensans text-sm leading-normal mt-3"
+              >
+                Minima veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid ex ea commodi
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-[334px]">
+            <img src="./src/images/icons/stars.svg" alt="" />
+            <div class="bg-[#F5F5F5] rounded-[24px] p-4 mt-2">
+              <h3
+                class="flex items-center gap-3 text-sm font-bold leading-normal font-opensans text-grayscale"
+              >
+                <span> Guy Hawkins </span>
+                <span class="w-[24px] h-[1px] bg-grayscale inline-block"></span>
+              </h3>
+              <p
+                class="text-[#ADAEAF] font-opensans text-sm leading-normal mt-3"
+              >
+                Minima veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid ex ea commodi
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-[334px]">
+            <img src="./src/images/icons/stars.svg" alt="" />
+            <div class="bg-[#F5F5F5] rounded-[24px] p-4 mt-2">
+              <h3
+                class="flex items-center gap-3 text-sm font-bold leading-normal font-opensans text-grayscale"
+              >
+                <span> Guy Hawkins </span>
+                <span class="w-[24px] h-[1px] bg-grayscale inline-block"></span>
+              </h3>
+              <p
+                class="text-[#ADAEAF] font-opensans text-sm leading-normal mt-3"
+              >
+                Minima veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid ex ea commodi
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-[334px]">
+            <img src="./src/images/icons/stars.svg" alt="" />
+            <div class="bg-[#F5F5F5] rounded-[24px] p-4 mt-2">
+              <h3
+                class="flex items-center gap-3 text-sm font-bold leading-normal font-opensans text-grayscale"
+              >
+                <span> Guy Hawkins </span>
+                <span class="w-[24px] h-[1px] bg-grayscale inline-block"></span>
+              </h3>
+              <p
+                class="text-[#ADAEAF] font-opensans text-sm leading-normal mt-3"
+              >
+                Minima veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid ex ea commodi
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-px h-[140px] bg-[#EAEAEA] mx-auto my-12"></div>
+    </section>
+    <!-- Review Area End -->
+    <!-- Most Popular Area start -->
+    <section
+      id="most_popular"
+      class="mx-auto h-auto xl:w-[1440px] w-[1350px] xl:max-w-full max-w-[85%]"
+    >
+      <h2
+        class="font-opensans text-3xl sm:text-[38px] font-bold leading-10 sm:leading-[62px] text-grayscale sm:text-left text-center"
+      >
+        The most popular diets
+      </h2>
+      <div class="flex justify-center gap-6 my-6 sm:justify-end">
+        <button id="prev">
+          <img src="./src/images/icons/arrow left.png" alt="" />
+        </button>
+        <button id="next">
+          <img src="./src/images/icons/arrow right.png" alt="" />
+        </button>
+      </div>
+      <div
+        id="slides"
+        class="relative flex flex-col w-full gap-8 overflow-hidden lg:h-[32rem] md:h-[59rem] sm:h-[118rem] h-[124rem]"
+      >
+        <div
+          id="slide"
+          class="absolute left-0 grid w-full grid-cols-1 gap-8 mt-3 transition-all duration-1000 ease-in-out md:grid-cols-2 lg:gap-4 lg:grid-cols-4"
+        >
+          <div>
+            <img src="./src/images/diets1.png" class="rounded-[48px] mb-4" />
+            <h3 class="text-base font-bold leading-normal font-opensans">
+              Slim
+            </h3>
+            <ul class="flex gap-4 my-4">
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+            </ul>
+            <p class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+              Taque earum rerum hic tenetur a sapiente maiores alias consequatur
+              aut perferendis doloribus asperiores...
+            </p>
+            <div class="flex justify-between mt-6">
+              <h2 class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+                <span>from</span>
+                <span class="text-grayscale text-[28px] font-bold">57 </span>
+                <span class="font-bold text-grayscale">pln</span>
+                <span> /day</span>
+              </h2>
+              <button
+                class="bg-[#1AC84B] font-opensans text-sm leading-normal font-semibold rounded-[18px] py-[10px] px-[24px] text-[#FDFBFA]"
+              >
+                Choose
+              </button>
+            </div>
+          </div>
+          <div>
+            <img src="./src/images/diets2.png" class="rounded-[48px] mb-4" />
+            <h3 class="text-base font-bold leading-normal font-opensans">
+              Fit
+            </h3>
+            <ul class="flex gap-4 my-4">
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+            </ul>
+            <p class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+              Taque earum rerum hic tenetur a sapiente maiores alias consequatur
+              aut perferendis doloribus asperiores...
+            </p>
+            <div class="flex justify-between mt-6">
+              <h2 class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+                <span>from</span>
+                <span class="text-grayscale text-[28px] font-bold">65 </span>
+                <span class="font-bold text-grayscale">pln</span>
+                <span> /day</span>
+              </h2>
+              <button
+                class="bg-[#1AC84B] font-opensans text-sm leading-normal font-semibold rounded-[18px] py-[10px] px-[24px] text-[#FDFBFA]"
+              >
+                Choose
+              </button>
+            </div>
+          </div>
+          <div>
+            <img src="./src/images/diets3.png" class="rounded-[48px] mb-4" />
+            <h3 class="text-base font-bold leading-normal font-opensans">
+              Vegan
+            </h3>
+            <ul class="flex gap-4 my-4">
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+            </ul>
+            <p class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+              Taque earum rerum hic tenetur a sapiente maiores alias consequatur
+              aut perferendis doloribus asperiores...
+            </p>
+            <div class="flex justify-between mt-6">
+              <h2 class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+                <span>from</span>
+                <span class="text-grayscale text-[28px] font-bold">59 </span>
+                <span class="font-bold text-grayscale">pln</span>
+                <span> /day</span>
+              </h2>
+              <button
+                class="bg-[#1AC84B] font-opensans text-sm leading-normal font-semibold rounded-[18px] py-[10px] px-[24px] text-[#FDFBFA]"
+              >
+                Choose
+              </button>
+            </div>
+          </div>
+          <div>
+            <img src="./src/images/diets4.png" class="rounded-[48px] mb-4" />
+            <h3 class="text-base font-bold leading-normal font-opensans">
+              Keto
+            </h3>
+            <ul class="flex gap-4 my-4">
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+            </ul>
+            <p class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+              Taque earum rerum hic tenetur a sapiente maiores alias consequatur
+              aut perferendis doloribus asperiores...
+            </p>
+            <div class="flex justify-between mt-6">
+              <h2 class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+                <span>from</span>
+                <span class="text-grayscale text-[28px] font-bold">62 </span>
+                <span class="font-bold text-grayscale">pln</span>
+                <span> /day</span>
+              </h2>
+              <button
+                class="bg-[#1AC84B] font-opensans text-sm leading-normal font-semibold rounded-[18px] py-[10px] px-[24px] text-[#FDFBFA]"
+              >
+                Choose
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          id="slide"
+          class="absolute grid w-full grid-cols-1 gap-8 mt-3 transition-all duration-1000 ease-in-out md:grid-cols-2 lg:gap-4 lg:grid-cols-4 left-full"
+        >
+          <div>
+            <img src="./src/images/diets4.png" class="rounded-[48px] mb-4" />
+            <h3 class="text-base font-bold leading-normal font-opensans">
+              Lorem, ipsum.
+            </h3>
+            <ul class="flex gap-4 my-4">
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+            </ul>
+            <p class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+              Taque earum rerum hic tenetur a sapiente maiores alias consequatur
+              aut perferendis doloribus asperiores...
+            </p>
+            <div class="flex justify-between mt-6">
+              <h2 class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+                <span>from</span>
+                <span class="text-grayscale text-[28px] font-bold">57 </span>
+                <span class="font-bold text-grayscale">pln</span>
+                <span> /day</span>
+              </h2>
+              <button
+                class="bg-[#1AC84B] font-opensans text-sm leading-normal font-semibold rounded-[18px] py-[10px] px-[24px] text-[#FDFBFA]"
+              >
+                Choose
+              </button>
+            </div>
+          </div>
+          <div>
+            <img src="./src/images/diets3.png" class="rounded-[48px] mb-4" />
+            <h3 class="text-base font-bold leading-normal font-opensans">
+              Lorem, ipsum dolor.
+            </h3>
+            <ul class="flex gap-4 my-4">
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+            </ul>
+            <p class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+              Taque earum rerum hic tenetur a sapiente maiores alias consequatur
+              aut perferendis doloribus asperiores...
+            </p>
+            <div class="flex justify-between mt-6">
+              <h2 class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+                <span>from</span>
+                <span class="text-grayscale text-[28px] font-bold">65 </span>
+                <span class="font-bold text-grayscale">pln</span>
+                <span> /day</span>
+              </h2>
+              <button
+                class="bg-[#1AC84B] font-opensans text-sm leading-normal font-semibold rounded-[18px] py-[10px] px-[24px] text-[#FDFBFA]"
+              >
+                Choose
+              </button>
+            </div>
+          </div>
+          <div>
+            <img src="./src/images/diets2.png" class="rounded-[48px] mb-4" />
+            <h3 class="text-base font-bold leading-normal font-opensans">
+              Vegan lorem
+            </h3>
+            <ul class="flex gap-4 my-4">
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+            </ul>
+            <p class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+              Taque earum rerum hic tenetur a sapiente maiores alias consequatur
+              aut perferendis doloribus asperiores...
+            </p>
+            <div class="flex justify-between mt-6">
+              <h2 class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+                <span>from</span>
+                <span class="text-grayscale text-[28px] font-bold">59 </span>
+                <span class="font-bold text-grayscale">pln</span>
+                <span> /day</span>
+              </h2>
+              <button
+                class="bg-[#1AC84B] font-opensans text-sm leading-normal font-semibold rounded-[18px] py-[10px] px-[24px] text-[#FDFBFA]"
+              >
+                Choose
+              </button>
+            </div>
+          </div>
+          <div>
+            <img src="./src/images/diets1.png" class="rounded-[48px] mb-4" />
+            <h3 class="text-base font-bold leading-normal font-opensans">
+              Keto Lorem, ipsum.
+            </h3>
+            <ul class="flex gap-4 my-4">
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+              <li
+                class="bg-[#F5F5F5] text-grayscale rounded-lg font-opensans text-sm leading-normal py-[2px] px-[9px]"
+              >
+                1000 kcal
+              </li>
+            </ul>
+            <p class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+              Taque earum rerum hic tenetur a sapiente maiores alias consequatur
+              aut perferendis doloribus asperiores...
+            </p>
+            <div class="flex justify-between mt-6">
+              <h2 class="text-[#ADAEAF] font-opensans text-sm leading-normal">
+                <span>from</span>
+                <span class="text-grayscale text-[28px] font-bold">62 </span>
+                <span class="font-bold text-grayscale">pln</span>
+                <span> /day</span>
+              </h2>
+              <button
+                class="bg-[#1AC84B] font-opensans text-sm leading-normal font-semibold rounded-[18px] py-[10px] px-[24px] text-[#FDFBFA]"
+              >
+                Choose
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-px h-[140px] bg-[#EAEAEA] mx-auto my-12"></div>
+    </section>
+    <!-- Most Popular Area End -->
+    <!-- We Deliver Area Start -->
+    <section
+      id="we_deliver"
+      class="mx-auto h-auto xl:w-[1440px] w-[1350px] xl:max-w-full max-w-[85%] mb-12"
+    >
+      <h2
+        class="font-opensans text-3xl sm:text-[38px] font-bold leading-10 sm:leading-[62px] text-grayscale"
+      >
+        Where we deliver
+      </h2>
+      <div class="flex flex-col justify-between gap-10 lg:gap-4 lg:flex-row">
+        <div>
+          <p
+            class="font-opensans text-base leading-[22px] text-grayscale mt-6 mb-16 md:w-[434px]"
+          >
+            See if we're delivering to you right now! Use the search engine by
+            entering the postal code of your locality and see if we can deliver
+            your order there.
+          </p>
+          <form>
+            <div class="flex flex-col gap-6 sm:flex-row">
+              <input
+                type="text"
+                name="city_name"
+                placeholder="City name"
+                class="rounded-[22px] border-[1px] border-[#ADAEAF] font-opensans text-base leading-[22px] placeholder:text-[#ADAEAF] focus-visible:outline-none px-4 h-[58px] md:w-[345px]"
+              />
+              <input
+                type="text"
+                name="nip"
+                placeholder="NIP"
+                class="rounded-[22px] border-[1px] border-[#ADAEAF] font-opensans text-base leading-[22px] placeholder:text-[#ADAEAF] focus-visible:outline-none px-4 h-[58px] md:w-[223px]"
+              />
+            </div>
+            <div class="flex gap-6 mt-8">
+              <input
+                type="submit"
+                value="Check"
+                class="rounded-[18px] bg-[#FFB21A] text-[#FDFBFA] py-3 px-[47px] font-opensans font-semibold text-sm leading-normal cursor-pointer"
+              />
+              <button class="flex items-center gap-2">
+                <img src="./src/images/icons/fluent-location.png" alt="" />
+                <span
+                  class="text-sm font-semibold leading-normal text-grayscale font-opensans"
+                  >Locate me</span
+                >
+              </button>
+            </div>
+          </form>
+        </div>
+        <div
+          class="grid items-center grid-cols-1 text-center sm:grid-cols-2 xl:grid-cols-3 gap-y-8 gap-x-4"
+        >
+          <div class="bg-[#F5F5F5] py-[18px] px-[70px] rounded-[18px]">
+            <p
+              class="text-base font-bold leading-normal font-opensans text-grayscale"
+            >
+              Warszawa
+            </p>
+          </div>
+          <div class="bg-[#F5F5F5] py-[18px] px-[70px] rounded-[18px]">
+            <p
+              class="text-base font-bold leading-normal font-opensans text-grayscale"
+            >
+              Kraków
+            </p>
+          </div>
+          <div class="bg-[#F5F5F5] py-[18px] px-[70px] rounded-[18px]">
+            <p
+              class="text-base font-bold leading-normal font-opensans text-grayscale"
+            >
+              Wrocław
+            </p>
+          </div>
+          <div class="bg-[#F5F5F5] py-[18px] px-[70px] rounded-[18px]">
+            <p
+              class="text-base font-bold leading-normal font-opensans text-grayscale"
+            >
+              Poznań
+            </p>
+          </div>
+          <div class="bg-[#F5F5F5] py-[18px] px-[70px] rounded-[18px]">
+            <p
+              class="text-base font-bold leading-normal font-opensans text-grayscale"
+            >
+              Gdańsk
+            </p>
+          </div>
+          <div class="bg-[#F5F5F5] py-[18px] px-[70px] rounded-[18px]">
+            <p
+              class="text-base font-bold leading-normal font-opensans text-grayscale"
+            >
+              Lublin
+            </p>
+          </div>
+          <div class="bg-[#F5F5F5] py-[18px] px-[70px] rounded-[18px]">
+            <p
+              class="text-base font-bold leading-normal font-opensans text-grayscale"
+            >
+              Szczecin
+            </p>
+          </div>
+          <div class="bg-[#F5F5F5] py-[18px] px-[70px] rounded-[18px]">
+            <p
+              class="text-base font-bold leading-normal font-opensans text-grayscale"
+            >
+              Bydgoszcz
+            </p>
+          </div>
+          <div class="bg-[#F5F5F5] py-[18px] px-[70px] rounded-[18px]">
+            <p
+              class="text-base font-bold leading-normal font-opensans text-grayscale"
+            >
+              Łódź
+            </p>
+          </div>
+          <div class="bg-[#F5F5F5] py-[18px] px-[70px] rounded-[18px]">
+            <p
+              class="text-base font-bold leading-normal font-opensans text-grayscale"
+            >
+              Rzeszów
+            </p>
+          </div>
+          <div class="bg-[#F5F5F5] py-[18px] px-[70px] rounded-[18px]">
+            <p
+              class="text-base font-bold leading-normal font-opensans text-grayscale"
+            >
+              Białystok
+            </p>
+          </div>
+          <div class="bg-[#F5F5F5] py-[18px] px-[70px] rounded-[18px]">
+            <p
+              class="text-base font-bold leading-normal font-opensans text-grayscale"
+            >
+              Olsztyn
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- We Deliver Area End -->
+    <!-- Trial Diet Area Start -->
+    <section
+      id="trial_diet"
+      class="mx-auto h-auto xl:w-[1440px] w-[1350px] xl:max-w-full max-w-[85%] mb-12"
+    >
+      <div class="w-px h-[159px] bg-[#EAEAEA] mx-auto mt-6 relative">
+        <div
+          class="w-[43px] h-[39px] bg-[#F5F5F5] mx-auto absolute bottom-0 right-0"
+          style="
+            clip-path: polygon(
+              70% 76%,
+              83% 57%,
+              89% 39%,
+              100% 0,
+              100% 100%,
+              0 100%,
+              29% 95%,
+              53% 87%
+            );
+          "
+        ></div>
+        <div
+          class="w-[43px] h-[39px] bg-[#F5F5F5] mx-auto absolute bottom-0"
+          style="
+            clip-path: polygon(
+              20% 57%,
+              34% 73%,
+              53% 86%,
+              71% 93%,
+              100% 100%,
+              0 100%,
+              0 0,
+              11% 38%
+            );
+          "
+        ></div>
+      </div>
+      <div class="flex justify-between h-[381px] bg-[#F5F5F5] rounded-[100px]">
+        <div
+          class="bg-[url('../src/images/trial-left-bg.png')] bg-no-repeat bg-auto bg-left-bottom relative w-80 rounded-bl-[100px] lg:block hidden"
+        >
+          <img
+            src="./src/images/trial-image left.png"
+            class="absolute scale-150 left-14"
+          />
+        </div>
+        <div class="self-center w-full text-center lg:w-auto">
+          <h2
+            class="font-opensans text-3xl sm:text-[38px] font-bold sm:leading-[62px] text-grayscale"
+          >
+            Order your trial diet
+          </h2>
+          <p
+            class="font-opensans text-base leading-[22px] text-grayscale mt-6 sm:mb-16 mb-10"
+          >
+            Try any diet to choose the right one for you
+          </p>
+          <button
+            class="font-opensans text-sm leading-normal font-semibold text-[#FDFBFA] bg-grayscale rounded-[18px] py-3 px-[23px]"
+          >
+            Choose a diet
+          </button>
+        </div>
+        <div
+          class="bg-[url('../src/images/trial-right-bg.png')] bg-no-repeat bg-auto bg-right-top rounded-tr-[100px] relative w-96 lg:block hidden"
+        >
+          <img
+            src="./src/images/trial-image-right.png"
+            class="absolute scale-110 -bottom-2 right-[.3rem]"
+          />
+        </div>
+      </div>
+      <div class="w-px h-[159px] bg-[#EAEAEA] mx-auto mb-6 relative">
+        <div
+          class="w-[43px] h-[39px] bg-[#F5F5F5] mx-auto absolute top-0 right-0"
+          style="
+            clip-path: polygon(
+              26% 9%,
+              0 0,
+              100% 0,
+              100% 100%,
+              87% 70%,
+              79% 54%,
+              70% 35%,
+              60% 25%,
+              45% 17%
+            );
+          "
+        ></div>
+        <div
+          class="w-[43px] h-[39px] bg-[#F5F5F5] mx-auto absolute top-0"
+          style="
+            clip-path: polygon(
+              65% 12%,
+              100% 0,
+              0 0,
+              0 100%,
+              9% 79%,
+              17% 57%,
+              25% 41%,
+              36% 27%,
+              48% 19%
+            );
+          "
+        ></div>
+      </div>
+    </section>
+    <!-- Trial Diet Area End -->
+    <!-- Order Faster Area Start -->
+    <section
+      id="order_faster"
+      class="mx-auto h-auto xl:w-[1440px] w-[1350px] xl:max-w-full max-w-[85%] mb-12"
+    >
+      <div class="flex flex-col items-center lg:items-start lg:flex-row">
+        <div class="lg:w-2/4">
+          <h2
+            class="font-opensans text-3xl sm:text-[38px] font-bold leading-10 sm:leading-[62px] text-grayscale xl:w-[559px]"
+          >
+            <span>Order faster than you can get hungry</span>
+            <span
+              class="inline-block bg-[#FFB21A] w-[97px] h-[43px] rounded-[18px] align-middle"
+            >
+              <img
+                src="./src/images/icons/Black-Heart.png"
+                class="block mx-auto mt-3"
+              />
+            </span>
+          </h2>
+        </div>
+        <div class="lg:w-2/4">
+          <p
+            class="font-opensans text-base leading-[22px] text-grayscale xl:w-[434px] pt-4"
+          >
+            By choosing our box catering at your door, you can be sure that your
+            ready meals will be healthy and tasty.
+          </p>
+        </div>
+      </div>
+      <div class="flex gap-4 mt-6">
+        <div class="flex-1 hidden w-2/4 lg:flex">
+          <div class="relative">
+            <img
+              src="./src/images/icons/order-Portal.png"
+              class="absolute left-4 top-48"
+            />
+            <img src="./src/images/order-image1-rounded.png" />
+            <img
+              src="./src/images/icons/order-Portal.png"
+              class="absolute right-4 bottom-48"
+            />
+          </div>
+          <div class="relative -left-32">
+            <img src="./src/images/order-image2-rounded.png" />
+            <img
+              src="./src/images/icons/order-Portal.png"
+              class="absolute right-0 bottom-60"
+            />
+          </div>
+        </div>
+        <div class="flex-1 lg:w-2/4">
+          <div class="flex flex-col gap-8 mb-20 md:flex-row">
+            <div class="items-center hidden sm:flex">
+              <p
+                class="w-9 h-9 bg-[#1AC84B] rounded-full text-center pt-2 font-opensans text-sm font-semibold leading-normal text-white"
+              >
+                01
+              </p>
+              <div class="w-[196px] h-[1px] bg-[#ADAEAF]"></div>
+            </div>
+            <div class="flex items-start gap-4">
+              <img src="./src/images/icons/phone.png" class="" />
+              <div>
+                <h4
+                  class="mt-2 text-base font-bold leading-normal font-opensans text-grayscale"
+                >
+                  Choose a diet that suits you
+                </h4>
+                <p
+                  class="font-opensans text-base leading-[22px] text-[#ADAEAF]"
+                >
+                  Qui blanditiis praesentium voluptatum deleniti atque maxime
+                  placeat facere
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-8 mb-20 md:flex-row">
+            <div class="items-center hidden sm:flex">
+              <p
+                class="pt-2 text-sm font-semibold leading-normal text-center text-white rounded-full w-9 h-9 bg-grayscale font-opensans"
+              >
+                02
+              </p>
+              <div class="w-[196px] h-[1px] bg-[#ADAEAF]"></div>
+            </div>
+            <div class="flex items-start gap-4">
+              <img src="./src/images/icons/chef-hat.png" class="" />
+              <div>
+                <h4
+                  class="mt-2 text-base font-bold leading-normal font-opensans text-grayscale"
+                >
+                  We start cooking
+                </h4>
+                <p
+                  class="font-opensans text-base leading-[22px] text-[#ADAEAF]"
+                >
+                  Qui blanditiis praesentium voluptatum deleniti atque veniet ut
+                  et voluptates repudiandae
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-8 md:flex-row">
+            <div class="hidden sm:flex">
+              <p
+                class="w-9 h-9 bg-[#FFB21A] rounded-full text-center pt-2 font-opensans text-sm font-semibold leading-normal text-white"
+              >
+                03
+              </p>
+              <div class="w-[196px] h-[1px] bg-[#ADAEAF]"></div>
+            </div>
+            <div class="flex items-start gap-4">
+              <img src="./src/images/icons/delivery.png" class="" />
+              <div>
+                <h4
+                  class="mt-2 text-base font-bold leading-normal font-opensans text-grayscale"
+                >
+                  We're bringing the diet to your door, bon appetit!
+                </h4>
+                <p
+                  class="font-opensans text-base leading-[22px] text-[#ADAEAF]"
+                >
+                  Qui blanditiis praesentium voluptatum deleniti atque
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-px h-[159px] bg-[#EAEAEA] mx-auto mb-6"></div>
+    </section>
+    <!-- Order Faster Area End -->
+    <!-- Box Diets  Area Start -->
+    <section
+      id="box_diets"
+      class="mx-auto h-auto xl:w-[1440px] w-[1350px] xl:max-w-full max-w-[85%] mb-12"
+    >
+      <h2
+        class="font-opensans text-3xl sm:text-[38px] font-bold leading-10 sm:leading-[62px] text-grayscale"
+      >
+        Box diets with which you get more
+      </h2>
+      <div class="flex flex-col gap-8 mt-8 md:flex-row md:gap-0">
+        <div class="text-center">
+          <div
+            class="w-[134px] h-[128px] rounded-[28px] bg-[#F5F5F5] flex items-center mx-auto"
+          >
+            <img src="./src/images/icons/plant.png" class="mx-auto" />
+          </div>
+          <h3
+            class="my-4 text-base font-bold leading-normal font-opensans text-grayscale"
+          >
+            Fresh ingredients
+          </h3>
+          <p class="font-opensans text-sm leading-normal text-[#ADAEAF]">
+            Donec in nisl porttitor, blandit augue in, ullamcorper felis
+          </p>
+        </div>
+        <div class="w-[140px] h-px bg-[#EAEAEA] mt-20 hidden md:block"></div>
+        <div class="text-center">
+          <div
+            class="w-[134px] h-[128px] rounded-[28px] bg-[#F5F5F5] flex items-center mx-auto"
+          >
+            <img src="./src/images/icons/Taste.png" class="mx-auto" />
+          </div>
+          <h3
+            class="my-4 text-base font-bold leading-normal font-opensans text-grayscale"
+          >
+            Taste
+          </h3>
+          <p class="font-opensans text-sm leading-normal text-[#ADAEAF]">
+            Apibus sed erat nec volutpat. Interdum et malesuada
+          </p>
+        </div>
+        <div class="w-[140px] h-px bg-[#EAEAEA] mt-20 hidden md:block"></div>
+        <div class="text-center">
+          <div
+            class="w-[134px] h-[128px] rounded-[28px] bg-[#F5F5F5] flex items-center mx-auto"
+          >
+            <img src="./src/images/icons/Diversity.png" class="mx-auto" />
+          </div>
+          <h3
+            class="my-4 text-base font-bold leading-normal font-opensans text-grayscale"
+          >
+            Diversity
+          </h3>
+          <p class="font-opensans text-sm leading-normal text-[#ADAEAF]">
+            Proin hendrerit molestie placerat ec ante congue placerat non sed
+          </p>
+        </div>
+        <div class="w-[140px] h-px bg-[#EAEAEA] mt-20 hidden md:block"></div>
+        <div class="text-center">
+          <div
+            class="w-[134px] h-[128px] rounded-[28px] bg-[#F5F5F5] flex items-center mx-auto"
+          >
+            <img src="./src/images/icons/gym.png" class="mx-auto" />
+          </div>
+          <h3
+            class="my-4 text-base font-bold leading-normal font-opensans text-grayscale"
+          >
+            Match
+          </h3>
+          <p class="font-opensans text-sm leading-normal text-[#ADAEAF]">
+            Vivamus blandit, lorem non venenatis luctus, leo dui volutpat
+            purusquis tinci
+          </p>
+        </div>
+      </div>
+      <div class="w-px h-[159px] bg-[#EAEAEA] mx-auto my-8"></div>
+    </section>
+    <!-- Box Diets Area End -->
+    <!-- Blog Area Start -->
+    <section
+      id="blog"
+      class="mx-auto h-auto xl:w-[1440px] w-[1350px] xl:max-w-full max-w-[85%] mb-12"
+    >
+      <h2
+        class="font-opensans text-3xl sm:text-[38px] font-bold leading-10 sm:leading-[62px] text-grayscale"
+      >
+        Blog
+      </h2>
+      <div class="flex flex-col gap-4 mt-12 lg:flex-row">
+        <div class="lg:w-2/4">
+          <a href="#">
+            <img src="./src/images/blog-thumbnail.png" class="rounded-[48px]" />
+          </a>
+          <div class="flex justify-between mt-6">
+            <a href="#">
+              <h3
+                class="text-base font-bold leading-normal font-opensans text-grayscale"
+              >
+                Vitamin C - what has the most vitamin C?
+              </h3>
+            </a>
+            <p class="flex items-center gap-1">
+              <img src="./src/images/icons/clock.svg" alt="" />
+              <span class="font-opensans text-xs leading-[28px] text-[#ADAEAF]"
+                >3 min read</span
+              >
+            </p>
+          </div>
+          <h6 class="font-opensans text-sm leading-normal text-[#ADAEAF]">
+            Esther Howard
+          </h6>
+          <p class="font-opensans text-sm leading-normal text-[#ADAEAF] mt-6">
+            Maecenas at bibendum orci, nec gravida elit. Sed viverra in est ac
+            consequat. Nulla facilisi. Donec efficitur malesuada scelerisque.
+            Praesent luctus, nisi eget viverra pulvinar, dolor sem dapibus
+            dolor, vel congue dolor massa vitae dolor. Integer aliquet orci
+            non...
+          </p>
+        </div>
+        <div class="mt-6 lg:w-2/4 lg:mt-0">
+          <div class="flex flex-col gap-6 md:flex-row">
+            <img
+              src="./src/images/blog-small-thumbnail-1.png"
+              class="rounded-[28px]"
+            />
+            <div>
+              <a href="#">
+                <h4
+                  class="text-base font-bold leading-normal font-opensans text-grayscale"
+                >
+                  Fast food - why should we avoid it? How does it affect our
+                  health?
+                </h4>
+              </a>
+              <p
+                class="font-opensans text-sm leading-normal text-[#ADAEAF] my-8"
+              >
+                Efficitur malesuada scelerisque. Praesent luctus, nisi eget
+                viverra pulvinar, dolor sem dapibus dolor, vel congue dolor
+                massa vitae...
+              </p>
+              <div class="flex items-center justify-between">
+                <h6 class="font-opensans text-sm leading-normal text-[#ADAEAF]">
+                  Jerome Bell
+                </h6>
+                <p class="flex items-center gap-1">
+                  <img src="./src/images/icons/clock.svg" alt="" />
+                  <span
+                    class="font-opensans text-xs leading-normal text-[#ADAEAF]"
+                    >3 min read</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-6 my-4 md:flex-row">
+            <img
+              src="./src/images/blog-small-thumbnail-2.png"
+              class="rounded-[28px]"
+            />
+            <div>
+              <a href="#">
+                <h4
+                  class="text-base font-bold leading-normal font-opensans text-grayscale"
+                >
+                  Blood tests - why should they be done regularly?
+                </h4>
+              </a>
+              <p
+                class="font-opensans text-sm leading-normal text-[#ADAEAF] my-8"
+              >
+                Efficitur malesuada scelerisque. Praesent luctus, nisi eget
+                viverra pulvinar, dolor sem dapibus dolor, vel congue dolor
+                massa vitae...
+              </p>
+              <div class="flex items-center justify-between">
+                <h6 class="font-opensans text-sm leading-normal text-[#ADAEAF]">
+                  Esther Howard
+                </h6>
+                <p class="flex items-center gap-1">
+                  <img src="./src/images/icons/clock.svg" alt="" />
+                  <span
+                    class="font-opensans text-xs leading-normal text-[#ADAEAF]"
+                    >2 min read</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-6 md:flex-row">
+            <img
+              src="./src/images/blog-small-thumbnail-3.png"
+              class="rounded-[28px]"
+            />
+            <div>
+              <a href="#">
+                <h4
+                  class="text-base font-bold leading-normal font-opensans text-grayscale"
+                >
+                  Sweets on a diet - can you eat them?
+                </h4>
+              </a>
+              <p
+                class="font-opensans text-sm leading-normal text-[#ADAEAF] my-8"
+              >
+                Efficitur malesuada scelerisque. Praesent luctus, nisi eget
+                viverra pulvinar, dolor sem dapibus dolor, vel congue dolor
+                massa vitae...
+              </p>
+              <div class="flex items-center justify-between">
+                <h6 class="font-opensans text-sm leading-normal text-[#ADAEAF]">
+                  Courtney Henry
+                </h6>
+                <p class="flex items-center gap-1">
+                  <img src="./src/images/icons/clock.svg" alt="" />
+                  <span
+                    class="font-opensans text-xs leading-normal text-[#ADAEAF]"
+                    >5 min read</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-px h-[159px] bg-[#EAEAEA] mx-auto my-8"></div>
+    </section>
+    <!-- Blog Area End -->
+    <!-- FAQ Area Start -->
+    <section
+      id="faq"
+      class="mx-auto h-auto xl:w-[1440px] w-[1350px] xl:max-w-full max-w-[85%] mb-12"
+    >
+      <div>
+        <ul>
+          <li>
+            <div class="flex justify-between items-center border-t-[1px] border-t-[#EAEAEA] py-4">
+              <h2
+                class="font-opensans lg:text-[28px] md:text-2xl text-xl font-bold leading-normal text-grayscale"
+              >
+                How do I place an order?
+              </h2>
+              <button id="faqBtn" class="transition-all duration-200 ease-linear">
+                <img src="./src/images/icons/arrow right.png" alt="" />
+              </button>
+            </div>
+            <div id="faqBody" class="hidden ">
+              <p  class="py-4 text-base leading-normal font-opensans text-grayscale">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique rerum in itaque, natus a nesciunt magni tempora unde minus est fugit id excepturi, maiores ipsa! Placeat dignissimos quasi quae.
+              </p>
+            </div>
+          </li>
+          <li
+            
+          >
+            <div class="flex justify-between items-center border-t-[1px] border-t-[#EAEAEA] py-4">
+              <h2
+              class="font-opensans lg:text-[28px] md:text-2xl text-xl font-bold leading-normal text-grayscale"
+            >
+              On which days and at what hours does the delivery take place?
+            </h2>
+            <button id="faqBtn" class="transition-all duration-200 ease-linear">
+              <img src="./src/images/icons/arrow right.png" alt="" />
+            </button>
+            </div>
+            <div id="faqBody" class="hidden ">
+              <p  class="py-4 text-base leading-normal font-opensans text-grayscale">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique rerum in itaque, natus a nesciunt magni tempora unde minus est fugit id excepturi, maiores ipsa! Placeat dignissimos quasi quae.
+              </p>
+            </div>
+          </li>
+          <li
+           
+          >
+           <div  class="flex justify-between items-center border-t-[1px] border-t-[#EAEAEA] py-4">
+             <h2
+              class="font-opensans lg:text-[28px] md:text-2xl text-xl font-bold leading-normal text-grayscale"
+            >
+              For how long can I order a diet?
+            </h2>
+            <button id="faqBtn" class="transition-all duration-200 ease-linear">
+              <img src="./src/images/icons/arrow right.png" alt="" />
+            </button>
+           </div>
+            <div id="faqBody" class="hidden ">
+              <p  class="py-4 text-base leading-normal font-opensans text-grayscale">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique rerum in itaque, natus a nesciunt magni tempora unde minus est fugit id excepturi, maiores ipsa! Placeat dignissimos quasi quae.
+              </p>
+            </div>
+          </li>
+          <li
+            
+          >
+            <div class="flex justify-between items-center border-t-[1px] border-t-[#EAEAEA] py-4">
+              <h2
+              class="font-opensans lg:text-[28px] md:text-2xl text-xl font-bold leading-normal text-grayscale"
+            >
+              Can I change the delivery address?
+            </h2>
+            <button id="faqBtn" class="transition-all duration-200 ease-linear">
+              <img src="./src/images/icons/arrow right.png" alt="" />
+            </button>
+            </div>
+            <div id="faqBody" class="hidden ">
+              <p  class="py-4 text-base leading-normal font-opensans text-grayscale">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique rerum in itaque, natus a nesciunt magni tempora unde minus est fugit id excepturi, maiores ipsa! Placeat dignissimos quasi quae.
+              </p>
+            </div>
+          </li>
+          <li
+            
+          >
+            <div class="flex justify-between items-center border-t-[1px] border-t-[#EAEAEA] border-b-[1px] border-b-[#EAEAEA] py-4" >
+              <h2
+              class="font-opensans lg:text-[28px] md:text-2xl text-xl font-bold leading-normal text-grayscale"
+            >
+              Can I suspend catering?
+            </h2>
+            <button id="faqBtn" class="transition-all duration-200 ease-linear">
+              <img src="./src/images/icons/arrow right.png" alt="" />
+            </button>
+            </div>
+            <div id="faqBody" class="hidden ">
+              <p  class="py-4 text-base leading-normal font-opensans text-grayscale">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique rerum in itaque, natus a nesciunt magni tempora unde minus est fugit id excepturi, maiores ipsa! Placeat dignissimos quasi quae.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- FAQ Area End -->
+    <!-- Footer Area Start -->
+    <footer id="footer">
+      <div class="w-px h-[159px] bg-[#EAEAEA] mx-auto mt-6 relative">
+        <div
+          class="w-[43px] h-[39px] bg-[#F5F5F5] mx-auto absolute bottom-0 right-0"
+          style="
+            clip-path: polygon(
+              70% 76%,
+              83% 57%,
+              89% 39%,
+              100% 0,
+              100% 100%,
+              0 100%,
+              29% 95%,
+              53% 87%
+            );
+          "
+        ></div>
+        <div
+          class="w-[43px] h-[39px] bg-[#F5F5F5] mx-auto absolute bottom-0"
+          style="
+            clip-path: polygon(
+              20% 57%,
+              34% 73%,
+              53% 86%,
+              71% 93%,
+              100% 100%,
+              0 100%,
+              0 0,
+              11% 38%
+            );
+          "
+        ></div>
+      </div>
+      <div class="bg-[#F5F5F5]">
+        <div
+          class="mx-auto h-auto xl:w-[1440px] w-[1350px] xl:max-w-full max-w-[85%] pb-12 pt-6"
+        >
+          <menu
+            class="pt-[50px] flex justify-between items-center lg:flex-row flex-col lg:gap-0 gap-8"
+          >
+            <div class="logo">
+              <a href="">
+                <img src="./src/images/Logo.png" alt="" />
+              </a>
+            </div>
+            <nav>
+              <ul
+                class="flex xl:gap-[56px] md:gap-9 md:flex-row flex-col gap-4 md:items-stretch items-center"
+              >
+                <li>
+                  <a
+                    class="text-sm leading-normal uppercase text-grayscale font-opensans"
+                    href="#"
+                    >Diets</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-sm leading-normal uppercase text-grayscale font-opensans"
+                    href="#"
+                    >Calorie calculator</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-sm leading-normal uppercase text-grayscale font-opensans"
+                    href="#"
+                    >Menu</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-sm leading-normal uppercase text-grayscale font-opensans"
+                    href="#"
+                    >Delivery</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-sm leading-normal uppercase text-grayscale font-opensans"
+                    href="#"
+                    >About us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-sm leading-normal uppercase text-grayscale font-opensans"
+                    href="#"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-sm leading-normal uppercase text-grayscale font-opensans"
+                    href="#"
+                    >Faq</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div class="flex items-center gap-3">
+              <p class="text-sm leading-normal text-[#ADAEAF] font-opensans">
+                Contatc:
+              </p>
+              <h4
+                class="text-base font-bold leading-normal text-grayscale font-opensans"
+              >
+                +1 (213) 776 24 10
+              </h4>
+            </div>
+          </menu>
+          <div class="flex items-center justify-center gap-6 mt-8 mb-12">
+            <a href="#">
+              <img src="./src/images/icons/facebook.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="./src/images/icons/instagram.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="./src/images/icons/twitter.png" alt="" />
+            </a>
+          </div>
+          <p
+            class="flex justify-center items-center font-opensans text-sm leading-normal text-[#ADAEAF] gap-6 sm:flex-row flex-col"
+          >
+            <a href="#">Policy privacy</a>
+            <span>Copyright 2022. All rights reserved</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
